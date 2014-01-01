@@ -20,7 +20,7 @@ $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
 #MMS and Phone
 PRODUCT_PACKAGES += \
     Mms \
-    Phone
+    Dialer
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tilapia
